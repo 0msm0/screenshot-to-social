@@ -1,0 +1,19 @@
+{
+  "name": "screenshot-to-social",
+  "owner": {
+    "name": "Manas",
+    "url": "https://github.com/0msm0"
+  },
+  "metadata": {
+    "description": "Screenshot-to-social skill for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "screenshot-to-social",
+      "source": "./",
+      "description": "Turn a screenshot of real work into a behind-the-scenes motion video with music, sized for Instagram Reels and Stories, LinkedIn and X, plus covers, captions and a posting playbook.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}

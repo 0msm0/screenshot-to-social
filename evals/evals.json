@@ -1,0 +1,55 @@
+{
+  "skill_name": "screenshot-to-social",
+  "evals": [
+    {
+      "id": 1,
+      "name": "theme-only-landscape",
+      "prompt": "Here's a screenshot of HyperFrames Studio with my project open. Theme: Opus 5.5 uses the agentic video editor provided by HeyGen HyperFrames. This was a pleasant surprise, I did not know HeyGen had such an editor or that Opus could do this. Feels Pau Pau Powerful... Make the full post package (video with audio, Instagram Reel + Story, X, LinkedIn, captions, posting steps).",
+      "expected_output": "A behind-the-scenes motion video built on the real screenshot plus platform variants, stills, captions and a posting playbook, in a genuine (non-marketing) voice.",
+      "files": [
+        "examples/hyperframes-studio/input.png"
+      ],
+      "assertions": [
+        "renders/post contains the four platform videos, cover_9x16/4x5, recap-card_9x16/4x5 and the original screenshot",
+        "every video is 59 s or shorter and about -14 LUFS",
+        "beats.json uses energy 'punchy' (the theme is excited) and leaves dur out",
+        "no beat about the lint/warning badge or other off-theme status",
+        "no file names, URLs or paths in on-screen text",
+        "statement and close text sits above the screenshot, not on it (landscape shot)",
+        "POSTING.md has steps and captions for Reel, Story, X and LinkedIn; each X post is 280 characters or fewer"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "owner-named-points-two-sessions",
+      "prompt": "Screenshot: two Claude Code sessions side by side. Left is my AI Leela agent pipeline redesign, right is a beta-reader skill for my novel. I want a genuine peek behind the scenes, not marketing. People should notice: I run multiple projects in parallel, the agent's logic on the Leela pivot, my own prompt 'This came to the mind, should we keep...' showing I steer it, and that an agent acts as a simulated coherent reader catching discrepancies. Video with audio plus captions for Insta, X and LinkedIn.",
+      "expected_output": "One beat per named point in the owner's order, the owner's prompt quoted verbatim, calm energy, recap card with four pins, captions per platform.",
+      "files": [
+        "evals/inputs/two-sessions.png"
+      ],
+      "assertions": [
+        "the four owner-named points each get a beat, in the owner's order, with at most one extra flagged as a suggestion",
+        "the owner's prompt appears verbatim (trimmed only with an ellipsis)",
+        "energy is calm or lively, not punchy",
+        "recap card pins match the beats",
+        "the skill does not re-ask which points to show"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "portrait-phone-screenshot",
+      "prompt": "This is a phone screenshot of my Claude app chat where it planned my whole week of workouts around my shifts. Quietly proud of this one. Can you make something I can post on Instagram and LinkedIn?",
+      "expected_output": "A calm package; the portrait shot uses the overlay layout for statement and close; privacy pass flags personal details.",
+      "files": [
+        "evals/inputs/phone-portrait.png"
+      ],
+      "assertions": [
+        "energy is calm with a calm or reflective music mood",
+        "statement and close use the overlay layout because the screenshot is portrait",
+        "the hand-over flags any personal details visible (names, schedule specifics) before posting",
+        "only Instagram and LinkedIn instructions are emphasised, X is optional"
+      ]
+    }
+  ],
+  "_comment": "Inputs for evals 2 and 3 are not in the repo (they show private work). Drop your own screenshots at those paths to run them."
+}

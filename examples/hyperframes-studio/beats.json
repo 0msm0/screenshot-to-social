@@ -1,0 +1,216 @@
+{
+  "_comment": "Worked example (HeyGen HyperFrames Studio screenshot, 1999x1128, 'pleasant surprise' theme). Coordinates belong to that screenshot: re-measure for yours. Durations are omitted on purpose (auto from reading time).",
+  "title": "Opus in the Editor",
+  "screenshot": "assets/img/studio.png",
+  "shot_w": 1999,
+  "shot_h": 1128,
+  "alt": "HeyGen HyperFrames Studio open in a browser on localhost with a project called behind-the-terminal: a compositions list (index, linkedin-4x5, reel-9x16, story-9x16), a preview player at 00:46, an Inspector panel with 'Record a gesture' and 'Describe a change to the agent', and a timeline with tracks named Rec, Dots, Dot 1, Dot 2, Dot 3.",
+  "topbar": "Behind the screen",
+  "palette": {
+    "bg": "#0f1412",
+    "paper": "#eef2ee",
+    "muted": "#a9b5ad",
+    "accent": "#6fd6a0",
+    "accent_deep": "#3f9e72",
+    "glow": "rgba(111,214,160,0.22)",
+    "monitor_bg": "#f7f6f2"
+  },
+  "beats": [
+    {
+      "type": "hook",
+      "kicker": "Claude Opus 5.5 + HeyGen HyperFrames",
+      "lines": [
+        "HeyGen has a",
+        "video editor."
+      ],
+      "accent_line": "Opus drives it.",
+      "camera": "full"
+    },
+    {
+      "type": "point",
+      "kicker": "A real editor",
+      "take": "This is HeyGen *HyperFrames Studio.*",
+      "sub": "A video editor. Running in my browser, on my machine.",
+      "camera": {
+        "focus": [
+          0,
+          0,
+          1100,
+          120
+        ]
+      },
+      "highlights": [
+        [
+          4,
+          62,
+          322,
+          44
+        ]
+      ]
+    },
+    {
+      "type": "point",
+      "kicker": "One video, four cuts",
+      "take": "One project. *Four formats.*",
+      "sub": "The main cut, plus feed, reel and story. Opus built all four.",
+      "camera": {
+        "focus": [
+          0,
+          160,
+          520,
+          340
+        ]
+      },
+      "highlights": [
+        [
+          10,
+          172,
+          490,
+          312
+        ]
+      ]
+    },
+    {
+      "type": "point",
+      "kicker": "A real timeline",
+      "take": "A *real timeline.*",
+      "sub": "Tracks, keyframes, effects. Every layer is code the agent wrote.",
+      "camera": {
+        "focus": [
+          0,
+          650,
+          1999,
+          478
+        ]
+      },
+      "highlights": [
+        [
+          0,
+          760,
+          1712,
+          356
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "kicker": "Built for an agent",
+      "who": "The Inspector panel",
+      "quote": "[[Describe a change to the agent]]",
+      "take": "The editor *expects an agent.*",
+      "sub": "Say what you want changed. The agent does the editing.",
+      "camera": {
+        "focus": [
+          1440,
+          240,
+          559,
+          330
+        ]
+      },
+      "highlights": [
+        [
+          1490,
+          498,
+          470,
+          48
+        ]
+      ]
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "I didn't know",
+        "HeyGen had this."
+      ],
+      "accent_line": "Or that Opus could.",
+      "camera": "full"
+    },
+    {
+      "type": "close",
+      "lines": [
+        "Feels Pau Pau"
+      ],
+      "accent_line": "Powerful.",
+      "sub": "Claude Opus 5.5, driving HeyGen HyperFrames.",
+      "camera": "full"
+    }
+  ],
+  "bookends": {
+    "outro": {
+      "dur": 5.5,
+      "kicker": "What you just saw",
+      "sub": "Opus 5.5 + HeyGen HyperFrames. Feels Pau Pau Powerful.",
+      "items": [
+        {
+          "text": "HeyGen has a full video editor",
+          "boxes": [
+            [
+              4,
+              62,
+              322,
+              44
+            ]
+          ],
+          "pins": [
+            [
+              340,
+              70
+            ]
+          ]
+        },
+        {
+          "text": "One project, four formats",
+          "boxes": [
+            [
+              10,
+              172,
+              490,
+              312
+            ]
+          ],
+          "pins": [
+            [
+              512,
+              180
+            ]
+          ]
+        },
+        {
+          "text": "A real timeline, every layer is code",
+          "boxes": [
+            [
+              0,
+              760,
+              1712,
+              360
+            ]
+          ],
+          "pins": [
+            [
+              1700,
+              770
+            ]
+          ]
+        },
+        {
+          "text": "A box to ask the agent for changes",
+          "boxes": [
+            [
+              1490,
+              498,
+              470,
+              48
+            ]
+          ],
+          "pins": [
+            [
+              1478,
+              506
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "energy": "punchy"
+}

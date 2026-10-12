@@ -1,0 +1,2 @@
+# Required by the build and finishing scripts
+pillow>=10.0

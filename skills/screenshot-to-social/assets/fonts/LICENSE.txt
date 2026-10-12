@@ -1,0 +1,5 @@
+Instrument Serif, Copyright 2022 The Instrument Serif Project Authors
+(https://github.com/Instrument/instrument-serif). Licensed under the SIL Open Font License 1.1
+(https://openfontlicense.org). Bundled unmodified.
+
+Archivo Black, Copyright 2017 The Archivo Black Project Authors. JetBrains Mono, Copyright 2020 The JetBrains Mono Project Authors. Both SIL Open Font License 1.1, bundled unmodified (used to measure text; the renderer embeds its own copies).

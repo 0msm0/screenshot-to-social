@@ -1,0 +1,66 @@
+[
+  {
+    "query": "here's a screenshot of my terminal with 4 agents running, can you turn it into a reel? (shot.png)",
+    "should_trigger": true
+  },
+  {
+    "query": "make something I can post from this screenshot (shot.png) of my claude code session",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to share a behind the scenes look at how I'm building my app, attached is a screenshot of cursor with the diff (shot.png)",
+    "should_trigger": true
+  },
+  {
+    "query": "turn this dashboard screenshot into a linkedin post with a short video (shot.png)",
+    "should_trigger": true
+  },
+  {
+    "query": "build in public update: screenshot attached of our figma file and the agent comments. need insta story + X thread (shot.png)",
+    "should_trigger": true
+  },
+  {
+    "query": "help people notice what's going on in this screenshot (shot.png) — it's my notion doc where claude rewrote the spec",
+    "should_trigger": true
+  },
+  {
+    "query": "can you make a teaser video from this screenshot (shot.png) of my novel-writing session for tiktok",
+    "should_trigger": true
+  },
+  {
+    "query": "another one for the behind the screen series, here's today's screenshot (shot.png)",
+    "should_trigger": true
+  },
+  {
+    "query": "write a linkedin post announcing our product launch, here's the website url",
+    "should_trigger": false
+  },
+  {
+    "query": "add captions to this talking-head mp4 interview",
+    "should_trigger": false
+  },
+  {
+    "query": "crop this screenshot (shot.png) to 4:5 and blur the email address",
+    "should_trigger": false
+  },
+  {
+    "query": "what's in this screenshot (shot.png)? I don't understand the error",
+    "should_trigger": false
+  },
+  {
+    "query": "make a promo video for my saas from https://example.com",
+    "should_trigger": false
+  },
+  {
+    "query": "write 5 tweet ideas about productivity",
+    "should_trigger": false
+  },
+  {
+    "query": "fix the bug shown in this screenshot (shot.png) of my stack trace",
+    "should_trigger": false
+  },
+  {
+    "query": "create a slide deck about our Q3 results",
+    "should_trigger": false
+  }
+]

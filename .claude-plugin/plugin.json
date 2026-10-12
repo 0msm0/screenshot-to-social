@@ -1,0 +1,13 @@
+{
+  "name": "screenshot-to-social",
+  "version": "1.0.0",
+  "description": "Turn a screenshot of real work into a behind-the-scenes motion video with music, sized for Instagram Reels and Stories, LinkedIn and X, plus covers, captions and a posting playbook.",
+  "author": {
+    "name": "Manas",
+    "url": "https://github.com/0msm0"
+  },
+  "homepage": "https://github.com/0msm0/screenshot-to-social",
+  "repository": "https://github.com/0msm0/screenshot-to-social",
+  "license": "MIT",
+  "keywords": ["skill", "social-media", "video", "screenshot", "build-in-public", "hyperframes", "instagram", "linkedin"]
+}

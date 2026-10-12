@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output
+dist/
+
+# Eval inputs and run output (may show private work)
+evals/inputs/*
+!evals/inputs/.gitkeep
+*-workspace/
+
+# Generated projects and renders
+videos/
+renders/
+*.mp4
+*.wav
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

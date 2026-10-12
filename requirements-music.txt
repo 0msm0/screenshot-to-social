@@ -1,0 +1,6 @@
+# Optional: offline music generation with MusicGen (downloads facebook/musicgen-small, ~300 MB, on first run)
+-r requirements.txt
+torch>=2.1
+transformers>=4.40
+soundfile>=0.12
+numpy>=1.24
